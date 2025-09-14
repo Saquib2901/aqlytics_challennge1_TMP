@@ -1,12 +1,12 @@
-# aqlytics_challennge1_TMP
-About A data analysis and visualization project made by Aqlytics
-DataDynamos_Challenge1_TMP
-📊 The EDA Mission Briefing
-This repository contains our team's submission for The Manhattan Project's Exploratory Data Analysis (EDA) Group Challenge. Our mission was to analyze the provided dataset to uncover actionable insights for OmniMart Retailers, focusing on customer behavior, product performance, and operational efficiency.
 
-Team Members
 
-[Sk. Mosharraf] - Data Cleaning & Preparation
+#  Retail Data Analysis & Customer Segmentation  
+
+##  Team Members  
+- Aqlytics Team  
+  - Team Members
+
+[Sk. Mosaraf] - Data Cleaning & Preparation
 
 [Tanvir] - Lead Analyst (RFM & K-Means Clustering)
 
@@ -14,55 +14,55 @@ Team Members
 
 [Md Kamran Basit] - Report & Presentation Author
 
-🚀 Install Dependencies and rerun the notebook :
+---
 
-pandas
+##  Problem Statement  
+The project aims to analyze **retail transaction data** (302,010 records, 86,766 unique customers) to:  
+- Understand **customer behavior**  
+- Identify **top-performing products & brands**  
+- Segment customers for **targeted marketing**  
+- Optimize **shipping, payments, and inventory**  
 
-numpy
+---
 
-matplotlib
+##  Summary of Findings  
 
-seaborn
+- **Top Product Categories & Brands**  
+  - Electronics, Grocery, and Clothing dominate transactions.  
+  - Brands like Pepsi, Coca-Cola, Samsung, and Zara lead sales; Nike, Adidas, and Puma retain customers strongly.  
 
-scikit-learn
+- **Customer Segmentation**  
+  - High-value customers (frequent, recent buyers) → need loyalty programs.  
+  - Low-value customers (infrequent, low spend) → minimal ROI; focus resources elsewhere.  
 
-🔍 Key Insights & Findings
-Our analysis of the OmniMart dataset led to the following key insights:
+- **Product Ratings vs Sales**  
+  - Higher-rated products are reordered more often → strong link between quality perception and sales.  
+  - Average ratings are ~3.0–3.2 across categories.  
 
-Insight 1: Customers are clearly split into two major groups: 'High-Value Champions' who spend 2.5 times more on average, and a large group of 'At-Risk' customers who are lapsing.
+- **Shipping & Order Status**  
+  - Express & Same-Day shipping → best on-time delivery rates.  
+  - Standard shipping → higher pending/processing rates, needs improvement.  
 
-Insight 2: Electronics and Grocery are the primary drivers of sales volume, significantly outpacing all other product categories.
+- **Payment Insights**  
+  - Credit cards most preferred (~90k users), followed by Debit, Cash, and PayPal.  
+  - All payment methods show 0% cancel rate → customer satisfaction with payment systems.  
 
-Insight 3: The chosen shipping method has no discernible impact on the final order status, indicating a consistent and reliable backend fulfillment process.
+- **Challenges**  
+  - Market gap: Products only partially solve customer needs.  
+  - High cancellations/delays in certain shipping modes.  
+  - Productivity and usability issues reduce overall satisfaction.  
 
-💡 Strategic Recommendations
+- **Recommendations**  
+  - Launch **segmented marketing campaigns** (champions vs at-risk).  
+  - Optimize **inventory & promotions** for top categories.  
+  - Deep-dive into **ratings vs sales** for product strategy refinement.  
+  - Enhance **personalization** (age, gender, purchase history).  
 
-Based on our findings, we propose the following targeted strategies:
+---
 
-For High-Value Champions (Nurture & Reward):
+## 🎯 Conclusion  
+- Revenue is highly concentrated among **high-value customers** → loyalty programs are key.  
+- Top 5 product categories drive **~70% of revenue** → critical for inventory planning.  
+- Better **shipping & payment optimization** → reduced cancellations + improved customer experience.  
+- Personalized marketing = higher conversions + long-term retention.  
 
-Loyalty Program: Implement a tiered rewards system with exclusive perks like early access to sales and free shipping.
-
-Personalized Campaigns: Leverage purchase history to offer tailored recommendations and upsell opportunities.
-
-Community Building: Engage these customers for feedback and encourage them to become brand advocates.
-
-For At--Risk / Lapsed Customers (Re-engage & Win Back):
-
-Win-Back Campaigns: Launch targeted "We Miss You!" emails with compelling discounts to incentivize a return purchase.
-
-New Product Highlights: Notify them about new arrivals in their previously preferred categories to rekindle interest.
-
-Feedback Surveys: Deploy surveys to understand their reasons for inactivity and gather data for future improvements.
-
-For a more detailed breakdown, please refer to our full analysis in the Jupyter Notebook and the accompanying presentation.
-
-📁 Repository Structure
-
-README.md (This file)
-
-retail_data.csv (The raw dataset used for the challenge)
-
-PROJECT CODE.ipynb (The main Jupyter Notebook with all our code and analysis)
-
-OmniMart_Presentation.html (A summary of our findings and recommendations)
